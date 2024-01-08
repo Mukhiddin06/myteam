@@ -1,0 +1,103 @@
+.deliver-section{
+    padding-top: 140px;
+    background-color: #004047;
+    background-image: url("../images/square.svg"), url("../images/delivery.svg");
+    background-repeat: no-repeat , no-repeat;
+    background-position: top left, bottom right;
+    padding-bottom: 151px;
+}
+
+.deliver {
+    
+}
+.deliver__title-wrapper {
+    max-width: 932px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+.deliver__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.deliver__strong {
+    color: #79C8C7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.deliver__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.deliver__card {
+    padding-top: 36px;
+    background-image: url("../images/“.svg");
+    background-repeat: no-repeat;
+    background-position:center top;
+}
+.card__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 24px;
+}
+.card__title {
+    color: #79C8C7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+.card__title-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    padding-bottom: 32px;
+}
+.card__img {
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width:800px){
+    .deliver-section{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .deliver__title-wrapper {
+        max-width: 573px;
+        margin-bottom: 48px;
+    }
+    .deliver__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .deliver__strong{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .deliver__card-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
+@media (max-width:375px){
+    .deliver-section{
+        padding-top: 140px;
+        padding-bottom: 150px;
+    }
+}

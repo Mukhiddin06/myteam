@@ -1,0 +1,116 @@
+.site-footer{
+    padding-top: 48px;
+    padding-bottom: 55px;
+    background-color: #002529;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__location-wrapper {
+    display: flex;
+}
+.footer__link-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__link{
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.footer__list {
+    margin-left: 125px;
+}
+.footer__location_text {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.footer__about-link {
+    text-align: end;
+}
+.footer__about-text {
+    margin-top: 50px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+@media (max-width:800px){
+    .site-footer{
+        padding-top: 56px;
+        padding-bottom: 55px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 34px;
+    }
+    .footer__location-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__img{
+        width: 96px;
+        height: 24px;
+    }
+    .footer__link{
+        margin-top: 45px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    .footer__location_text {
+        text-align: end;
+    }
+    .footer__about-link {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__about-text {
+        margin-top: 0px;
+    }
+}
+@media (max-width:375px){
+    .site-footer{
+        padding-top: 66px;
+        padding-bottom: 64px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer__location-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__link{
+        margin-top: 10px;
+    }
+    .footer__location_text {
+        text-align: center;
+    }
+    .footer__list{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer__about-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__about-text {
+        margin-top: 16px;
+    }
+}

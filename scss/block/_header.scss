@@ -44,6 +44,11 @@
     font-weight: 600;
     line-height: 28px;
 }
+.header__btn{
+    display: none;
+    background: transparent;
+    border: none;
+}
 
 @media only screen and (max-width:800px){
     .site-header{
@@ -56,5 +61,20 @@
     }
     .header__navbar {
         margin-left: 48px;
+    }
+}
+@media (max-width:580px){
+    .site-header{
+        padding-top: 48px;
+        padding-bottom: 80px;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__link-more {
+        display: none;
+    }
+    .header__btn{
+        display: block;
     }
 }
